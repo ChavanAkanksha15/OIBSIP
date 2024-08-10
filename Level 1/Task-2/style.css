@@ -1,0 +1,428 @@
+
+body {
+    width: 100%;
+    
+  }
+  .section-p1 {
+    padding: 40px 80px;
+  }
+  
+  /* Header Start */
+
+  #header span{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  #header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:20px 118px;
+      background: #fce681;
+      box-shadow: 0 5px 15px rgba(240, 179, 25, 0.562);
+      z-index: 999;
+      position: sticky;
+      top:0;
+      left:0;
+  }
+  #navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  
+  #navbar li{
+      list-style: none;
+      padding: 0 40px;
+      position: relative;
+  }
+  
+  #navbar li a{
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      color:#1a1a1a;
+      transition:0.3s ease;
+  }
+  #navbar li a:hover,
+  #navbar li a.active
+  {
+      color:#0a1717;
+  }
+  #navbar li a.active::after,
+  #navbar li a:hover::after{
+      content:"";
+      width:30%;
+      height:2px;
+      background: #0d0a0df3;
+      position: absolute;
+      bottom: -4px;
+      left:20px;
+  }
+
+  /* Content */
+.content{
+    background-image: url(./img/banner4.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 14px 135px;
+  }
+
+.content .banner{
+    margin:109px 9px 90px -5px;
+  }
+  .banner h1{
+    font-size: 5.0rem;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .content  img{
+    width: 42%;
+    margin-bottom: 111px;
+    margin-top: 46px;
+    margin-right: 46px;
+    
+    
+}
+.content  img:hover{
+    transform: scale(1.2);
+}
+.banner h3{
+    font-size: 33px;
+    font-weight: 700;
+}
+.banner h3 span{
+    color:#b54c4c;
+}
+.banner button{
+    height: 49px;
+    width: 133px;
+    border-radius: 23px;
+    border: none;
+    background-color: #d2783c70;
+    font-size: revert-layer;
+    font-weight: 700;
+    cursor: pointer;
+}
+.banner button:hover{
+    color:white;
+    background-color: #715151;
+    border: none;
+}
+
+/* Banner2 */
+#banner2{
+    padding: 14px 126px;
+    margin-top: 28px;
+}
+#banner2 .bcontent h3{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#banner2  p{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: large;
+   
+}
+#banner2 .bcontent #croo{
+    background-image: url(./img/croo.png);
+    height:1107px;
+}
+#banner2 .bcontent #croo p{
+    width: 800px;
+    margin-top: 99px;
+    font-size: large;
+}
+#banner2 .bcontent  #croo2{
+    background-image: url(./img/croo1.png);
+    height: 1232px;
+    margin-top: -571px;
+    margin-left: 2px;
+}
+#banner2 .bcontent .bcontent2{
+    margin-top: -1629px;
+    width: 739px;
+    font-size: large;
+}
+#banner2 .bcontent .bcontent2 button{
+    width: 170px;
+    float: right;
+    margin-right: 101px;
+    margin-top: 32px;
+    height: 53px;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    background-color: #ffbf5078;
+    border: none;
+}
+#banner2 .bcontent .bcontent2 img{
+    float: right;
+    margin-top: -241px;
+    margin-right: -739px;
+    width: 63%;
+}
+#banner2 .bcontent .bcontent2 img:hover
+{
+    transform: rotate(360deg);
+    transition: 5s;
+}
+#banner2 .bcontent .bcontent2 button:hover{
+    color: white;
+    background-color:#453232;
+    border: none;
+}
+#banner2 .bcontent .bcontent3{
+    width: 1267px;
+    
+    margin-top: 352px;
+}
+#banner2 .bcontent .bcontent3 img{
+    
+    width: 37%;
+    margin-left: 56px;
+    margin-top: -25px;
+}
+#banner2 .bcontent .bcontent3 img:hover
+{
+    transform: rotate(360deg);
+    transition: 5s;
+}
+#banner2 .bcontent .bcontent3 p{
+    float: right;
+    margin-top: -365px;
+    margin-left: 560px;
+    font-size: large;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+#banner2 .bcontent .bcontent3 button{
+    width: 170px;
+
+    margin-left: 46px;
+  
+    height: 53px;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    background-color: #ffbf5078;
+    border: none;
+}
+#banner2 .bcontent .bcontent3 button:hover{
+    color: white;
+    background-color:#453232;
+    border: none;
+}
+
+#banner2 .bcontent .bcontent4{
+    margin-bottom: 283px;
+}
+
+#banner2 .bcontent .bcontent4 p{
+    margin-right: 572px;
+    margin-top: 261px;
+    font-size: large;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+#banner2 .bcontent .bcontent4 img{
+    float: right;
+    width: 38%;
+    margin-right: 64px;
+    margin-top: -220px;
+}
+#banner2 .bcontent .bcontent4 img:hover{
+    transform: rotate(360deg);
+    transition: 5s;
+}
+#banner2 .bcontent .bcontent4 button{
+    width: 170px;
+
+  
+  
+    height: 53px;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    background-color: #ffbf5078;
+    border: none;
+    margin-left: 519px;
+    margin-top: 30px;
+}
+#banner2 .bcontent .bcontent4 button:hover{
+    color: white;
+    background-color:#453232;
+    border: none;
+}
+/*  */
+#content2  {
+margin-bottom: 52px;
+}
+#content{
+    padding: 14px 126px;
+    margin-top: 28px;
+}
+#content2 .banner5 h3{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#content2 .banner5 p{
+ text-align: center;
+    margin-top: 48px;
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: large;
+}
+
+#content2 .form{
+    margin-top: 112px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0px 58px;
+}
+#content2 .form button{
+    height: 47px;
+    width: 142px;
+    margin: -24px 151px;
+    border-radius: 17px;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+#content2 .form button:hover{
+    color:black;
+    background-color: rgba(253, 179, 101, 0.886);
+}
+#content2 .form form{
+    width: 39%;
+    border: 10px solid #f1d03b;
+    border-radius: 52px;
+    height: 65vh;
+    margin-left: 52px;
+}
+.input{
+    width: 477px;
+    padding: 46px 47px;
+    padding: 46px 47px;
+}
+#content2 .form .input input{
+    width: 380px;
+    height: 50px;
+    border: outset;
+    font-size: large;
+}
+#content2 .form .cac img{
+    width: 89%;
+    margin-left: 80px;
+}
+
+  /* 
+   */
+  #content3 .banner6{
+    text-align: center;
+    margin-top: 66px;
+    margin-bottom: 93px;
+  }
+  #content3 .banner6 h3{
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  #content3 .banner6 p{
+    font-size: large;
+    font-family: sans-serif;
+    margin-top: 24px;
+  }
+
+  #content3 .clients{
+    display: flex;
+    padding: 6px 171px;
+    margin-bottom:12px;
+  }
+  #content3 .clients img{
+    width: 30%;
+    margin-right: 45px;
+    border-radius: 119px;
+  }
+  #content3:hover{
+    background-color: gainsboro;
+    opacity: .7;
+  }
+  #content3 .clients .review h4{
+    font-size: x-large;
+    font-weight: 700;
+    color: #bb9b09;
+    text-decoration: underline
+  }
+  #content3 .clients .review .box{
+    border: 2px solid;
+    background-color: black;
+    color: white;
+  }
+  #content3 .clients .review .box p{
+    padding: 21px 68px;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+
+  /* footer */
+.footer{
+    background-color: #f2dc75;
+    margin-top:68px;
+
+}
+  .footer1{
+   
+    display: flex;
+    font-size: large;
+  }
+  .footer1 img{
+    width: 15%;
+    height: 174px;
+  }
+  .footer1 img:hover{
+    transform: rotate(90deg);
+    transition: 2s;
+  }
+  .footer .footer1 .col{
+    margin:54px 140px
+  }
+  .footer .footer1 .col h4{
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 18px;
+  }
+  .footer  .footer1 .col a{
+    color: black;
+    font-weight: 600;
+  }
+  .footer .copyright{
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+  }
